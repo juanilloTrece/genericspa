@@ -1,0 +1,311 @@
+/*** Add your styles here **/
+
+h1 {
+    font-family: 'lato', sans-serif;
+    font-size: 2.8rem;
+}
+
+h1 span {
+    font-family: 'italianno', cursive;
+    font-size: 7rem;
+    color: #F50057;
+}
+
+h2 {
+    font-family: 'lato', sans-serif;
+    font-size: 1.5rem;
+}
+
+h2 span {
+    font-family: 'italianno', cursive;
+    font-size: 4rem;
+    color: #F50057;
+}
+
+/** Sociales **/
+.sociales ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sociales ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.sociales ul li a::before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.4rem;
+    content: '\f08e';
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.5rem;
+    /*color: #e082a8;*/
+    color: whitesmoke;
+}
+
+.sociales ul li a[href*="facebook.com"]::before {
+    content: '\f230';
+}
+
+.sociales ul li a[href*="twitter.com"]::before {
+    content: '\f081';
+}
+
+.sociales ul li a[href*="instagram.com"]::before {
+    content: '\f16d';
+}
+
+.sociales ul li a[href*="pinterest.com"]::before {
+    content: '\f0d2';
+}
+
+.sociales ul li a[href*="youtube.com"]::before {
+    content: '\f16a';
+}
+
+.topbar {
+    background-color: rgb(29, 155, 102);
+    font-family: 'lato', sans-serif;
+
+}
+
+
+/*navbar principal*/
+.navigation {
+    background-color: #F50057;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: whitesmoke;
+}
+
+.nav-principal {
+    background-image: url(/img/border_horizontal.png),
+        url(/img/border_horizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0px top, 0px bottom;
+}
+
+.nav-link {
+    color: whitesmoke;
+    font-family: 'raleway', sans-serif;
+    font-weight: 700;
+
+
+}
+
+.nav-link:hover {
+    color: whitesmoke;
+    background-color: #D81B60;
+}
+
+/*carrousel*/
+.carousel-item {
+    height: 80vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption h2 {
+    font-family: 'raleway', cursive;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+/*sección nuestro-sitio*/
+.nuestro-sitio p {
+    font-family: 'lato', sans-serif;
+    font-size: 1.6rem;
+}
+
+/*servicio*/
+
+.servicio {
+    background-color: #FCE4EC;
+}
+
+.img-servicio img {
+    border: 6px solid whitesmoke;
+}
+
+.servicio-info {
+    background-color: white;
+    margin-top: -5rem;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 11px;
+}
+
+.servicio-info .btn-outline-primary {
+    background-color: white;
+    color: #F50057;
+    border-color: #F50057;
+}
+
+.servicio-info .btn-outline-primary:hover {
+    background-color: #F50057;
+    color: white;
+    border-color: #F50057;
+}
+
+/*seccion horarios*/
+
+.horarios {
+    background-color: rgb(29, 155, 102);
+    color: white;
+}
+
+.horarios h2 {
+    font-family: 'lato', sans-serif;
+    font-size: 2rem;
+}
+
+.horarios p {
+    font-family: 'raleway', sans-serif;
+}
+
+.horarios .table {
+    border: 2px solid whitesmoke;
+    border-radius: 6px;
+    font-family: 'italianno', cursive;
+    font-size: 1.5rem;
+
+}
+
+
+.horarios .table thead {
+    background-color: rgb(18, 107, 70);
+
+    color: white;
+}
+
+.bg-horario {
+    background-image: url(/img/bg_horarios.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 300px;
+}
+
+/* Productos*/
+.productos .card {
+    border: none;
+}
+
+.productos .card a {
+    color: #000000;
+}
+
+.productos .card a:hover {
+    text-decoration: none;
+}
+
+.productos .card h3 {
+    color: #F50057;
+    font-size: 1.4rem;
+}
+
+.productos .card p {
+    font-size: .8rem;
+}
+
+.productos .card p.precio {
+    font-size: 1.6rem;
+    color: rgb(18, 107, 70);
+}
+
+.productos .btn-outline-primary {
+    background-color: white;
+    color: rgb(18, 107, 70);
+    border-color: rgb(18, 107, 70);
+}
+
+.productos .btn-outline-primary:hover {
+    background-color: rgb(18, 107, 70);
+    color: white;
+    border-color: rgb(18, 107, 70);
+}
+
+/*calltoaction*/
+
+.calltoaction {
+    background-color: #F50057;
+    color: white;
+    font-family: 'raleway', sans-serif;
+}
+
+.calltoaction h3 {
+    font-size: 3rem;
+}
+
+.calltoaction .btn-outline-primary {
+    color: white;
+
+    border-color: white;
+    border-radius: 20px;
+    padding: 1rem 5rem;
+
+}
+
+.calltoaction .btn-outline-primary:hover {
+    background-color: rgb(18, 107, 70);
+    border-color: rgb(18, 107, 70);
+    color: white;
+    border-radius: 20px;
+    padding: 1.3rem 5.3rem;
+
+}
+
+/*footer*/
+
+.footer {
+    background-color: #263238;
+    color: white;
+    font-family: 'raleway', sans-serif;
+}
+
+.footer a {
+    color: white;
+
+}
+
+.footer a:hover {
+    text-decoration: none;
+
+}
+
+.contacto {
+
+    font-family: 'lato', sans-serif;
+    font-size: 1.5rem;
+}
+
+.contacto .btn-outline-primary {
+    padding: 1rem;
+    background-color: white;
+    border-color: #F50057;
+    color: #F50057;
+}
+
+.contacto .btn-outline-primary:hover {
+    padding: 1rem;
+    background-color: #F50057;
+    border-color: #F50057;
+    color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #F50057;
+    z-index: 9999;
+    transition: all 1.5s ease;
+
+}
